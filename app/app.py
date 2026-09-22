@@ -43,8 +43,14 @@ class Handler(BaseHTTPRequestHandler):
         self.wfile.write(data)
 
 
-server = HTTPServer(("0.0.0.0", 8000), Handler)
+def run_server():
 
-print("CloudOps Lab API running on port 8000")
+    server = HTTPServer(("0.0.0.0", 8000), Handler)
 
-server.serve_forever()
+    print("CloudOps Lab API running on port 8000")
+
+    server.serve_forever()
+
+
+if __name__ == "__main__":
+    run_server()
