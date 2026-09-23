@@ -16,7 +16,7 @@ class Handler(BaseHTTPRequestHandler):
             response = {
                 "status": "healthy",
                 "service": "cloudops-lab",
-                "version": "1.0"
+                "version": "1.1"
             }
 
         elif self.path == "/status":
