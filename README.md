@@ -1107,4 +1107,3 @@ Kubernetes / Minikube
 Bu yapı içerisinde uygulamanın çalıştırılması, containerization, cloud deployment, Infrastructure as Code, CI, container orchestration, Kubernetes networking, health checks, Helm templating ve application monitoring süreçleri aynı proje üzerinde uygulanmıştır.
 
 ```
-```
