@@ -11,7 +11,7 @@ spec:
     app: cloudops-api
 
   ports:
-    - protocol: TCP
+    - name: http
       port: 8000
       targetPort: 8000
 

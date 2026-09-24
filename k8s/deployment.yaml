@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: cloudops-api
-          image: cloudops-lab:1.0
+          image: cloudops-lab:1.2
           imagePullPolicy: Never
 
           ports:
